@@ -1,0 +1,15 @@
+/* ==========================================================
+   manproduct.css - men category
+   Page head + shop grid live in base.css
+   ========================================================== */
+
+.page-head{
+    --cat-tint:#eef7f6;
+    --cat-line:#d7ece9;
+    background-color: var(--cat-tint);
+    border-bottom-color: var(--cat-line);
+}
+
+.page-title .style-color{
+    color: var(--brand-700);
+}

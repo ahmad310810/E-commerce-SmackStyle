@@ -1,0 +1,19 @@
+/* ==========================================================
+   product.css — product.html only
+   Page head + shop grid live in base.css
+   ========================================================== */
+
+.shop-block + .shop-block{
+    background-color: var(--bg-soft);
+    border-top: 1px solid var(--line);
+}
+
+.shop-block .shop-grid{
+    padding-block: clamp(26px, 4vw, 40px);
+}
+
+.shop-block .view-more{
+    display: flex;
+    justify-content: center;
+    padding-bottom: clamp(30px, 4vw, 46px);
+}

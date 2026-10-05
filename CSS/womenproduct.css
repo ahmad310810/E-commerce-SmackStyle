@@ -1,0 +1,24 @@
+/* ==========================================================
+   womenproduct.css - women category
+   Page head + shop grid live in base.css
+   ========================================================== */
+
+.page-head{
+    --cat-tint:#f7f1f6;
+    --cat-line:#f0dde8;
+    background-color: var(--cat-tint);
+    border-bottom-color: var(--cat-line);
+}
+
+.page-head .eyebrow,
+.page-count{
+    color: #9d3168;
+}
+
+.page-head .page-count{
+    border-color: #f0dde8;
+}
+
+.page-title .style-color{
+    color: #b0437c;
+}

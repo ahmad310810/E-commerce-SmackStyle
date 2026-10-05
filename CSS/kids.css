@@ -1,0 +1,24 @@
+/* ==========================================================
+   kids.css - kids category
+   Page head + shop grid live in base.css
+   ========================================================== */
+
+.page-head{
+    --cat-tint:#f3f6fd;
+    --cat-line:#dde5f7;
+    background-color: var(--cat-tint);
+    border-bottom-color: var(--cat-line);
+}
+
+.page-head .eyebrow,
+.page-count{
+    color: #3557b8;
+}
+
+.page-head .page-count{
+    border-color: #dde5f7;
+}
+
+.page-title .style-color{
+    color: #3f63cc;
+}
